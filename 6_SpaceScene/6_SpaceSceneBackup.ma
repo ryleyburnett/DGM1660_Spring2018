@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff05 scene
-//Name: 6_SpaceScene.ma
-//Last modified: Thu, Feb 08, 2018 02:20:55 PM
+//Name: 6_SpaceSceneBackup.ma
+//Last modified: Thu, Feb 08, 2018 02:21:14 PM
 //Codeset: 1252
 requires maya "2017ff05";
 requires "stereoCamera" "10.0";
@@ -3338,4 +3338,4 @@ connectAttr "groupId13.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId14.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId16.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId17.msg" ":initialShadingGroup.gn" -na;
-// End of 6_SpaceScene.ma
+// End of 6_SpaceSceneBackup.ma
