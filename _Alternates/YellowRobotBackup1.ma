@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff05 scene
-//Name: YellowRobot.ma
-//Last modified: Thu, Mar 15, 2018 03:33:42 PM
+//Name: YellowRobotBackup1.ma
+//Last modified: Thu, Mar 15, 2018 03:31:55 PM
 //Codeset: 1252
 requires maya "2017ff05";
 currentUnit -l centimeter -a degree -t film;
@@ -13,18 +13,18 @@ fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "EC6F7233-488B-B87B-84FB-0993C4818904";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -3.5131823711582126 6.7207010155182676 11.992509541131341 ;
-	setAttr ".r" -type "double3" -362.73835260564039 -2524.1999999963637 0 ;
+	setAttr ".t" -type "double3" -3.0470555265819952 5.9445322001243763 4.6253658076169692 ;
+	setAttr ".r" -type "double3" -353.13835261362846 -2531.7999999968156 -2.0307619793180957e-016 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "E8EAC030-4A92-D491-F80E-A68663E003D3";
 	setAttr -k off ".v" no;
 	setAttr ".pze" yes;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 12.304833415054706;
+	setAttr ".coi" 4.6070782991117127;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
-	setAttr ".tp" -type "double3" -2.5949159217620075 6.0003699549688543 -0.12331734596053204 ;
+	setAttr ".tp" -type "double3" -0.79631758635529681 7.5608640914184946 0.58560244835147723 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 	setAttr ".ai_translator" -type "string" "perspective";
 createNode transform -s -n "top";
@@ -47,13 +47,13 @@ createNode camera -s -n "topShape" -p "top";
 createNode transform -s -n "front";
 	rename -uid "A1EA958D-400C-6CD9-4962-5287DA11FF0F";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -2.4374574815023857 6.1719366101772932 1000.1 ;
+	setAttr ".t" -type "double3" -0.056643836272730397 6.5349184143633448 1000.1 ;
 createNode camera -s -n "frontShape" -p "front";
 	rename -uid "6838A5AD-4F26-2E33-95F2-359EF125D4CC";
 	setAttr -k off ".v" no;
 	setAttr ".rnd" no;
 	setAttr ".coi" 1000.1;
-	setAttr ".ow" 2.5790723276933596;
+	setAttr ".ow" 16.988449478709409;
 	setAttr ".imn" -type "string" "front";
 	setAttr ".den" -type "string" "front_depth";
 	setAttr ".man" -type "string" "front_mask";
@@ -27592,9 +27592,7 @@ createNode mesh -n "pSphereShape3" -p "transform32";
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode transform -n "polySurface35" -p "pSphere3";
 	rename -uid "D83BB61E-44C9-11F9-FC64-1D96C372D91C";
-	setAttr ".t" -type "double3" -32.508960437461489 -18.199594077303811 -11.56480484301095 ;
-	setAttr ".r" -type "double3" 0 0 162.737 ;
-	setAttr ".s" -type "double3" 1.0340148152757804 1.0340148152757804 1.0340148152757804 ;
+	setAttr ".t" -type "double3" -31.39923764709258 -14.55994272144722 -11.718538851382876 ;
 	setAttr ".rp" -type "double3" -9.2388296127319336 3.814697265625e-006 7.152557373046875e-007 ;
 	setAttr ".sp" -type "double3" -9.2388296127319336 3.814697265625e-006 7.152557373046875e-007 ;
 createNode mesh -n "polySurfaceShape35" -p "polySurface35";
@@ -28308,7 +28306,7 @@ createNode mesh -n "polySurfaceShape35" -p "polySurface35";
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode transform -n "pCylinder15";
 	rename -uid "141D060B-4D62-FB42-2073-219D271C88DC";
-	setAttr ".t" -type "double3" -4.6550976315501105 -1.9946686806524303 0.12991738779632594 ;
+	setAttr ".t" -type "double3" -4.7685642297397699 -1.9412123921878237 0 ;
 	setAttr ".r" -type "double3" 0 0 162.73675166251874 ;
 	setAttr ".rp" -type "double3" 2.021 8.1753909517788621 -0.37499998008710839 ;
 	setAttr ".sp" -type "double3" 2.021 8.1753909517788621 -0.37499998008710839 ;
@@ -35439,4 +35437,4 @@ connectAttr "groupId71.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId72.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId73.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId74.msg" ":initialShadingGroup.gn" -na;
-// End of YellowRobot.ma
+// End of YellowRobotBackup1.ma
