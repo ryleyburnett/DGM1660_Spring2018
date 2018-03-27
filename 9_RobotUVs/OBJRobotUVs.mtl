@@ -1,0 +1,21 @@
+newmtl Arm_SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd UV_Grid.jpg
+Ni 1.00
+newmtl HeadChest_SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd UV_Grid.jpg
+Ni 1.00
+newmtl Legs_SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd UV_Grid.jpg
+Ni 1.00
